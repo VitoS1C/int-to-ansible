@@ -2,7 +2,7 @@
 - name: CONFIGURE IPv6 ADDRESSING
   hosts: R1
   gather_facts: false
-connection: local
+  connection: local
 
   tasks:
    - name: ENABLE IPv6 Unicast Routing
