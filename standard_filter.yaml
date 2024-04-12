@@ -29,4 +29,3 @@
      debug:
        var: result.stdout_lines
      tags: show
-     
