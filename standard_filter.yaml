@@ -7,7 +7,7 @@
   tasks:
    - name: Load new ACL into device
      ios_config:
-       parents: ip access-list standard
+       parents: ip access-list standard VTY
        lines:
          - permit 192.168.10.10
          - permit 192.168.30.30
